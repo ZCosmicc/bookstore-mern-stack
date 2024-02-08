@@ -17,7 +17,7 @@ app.use(express.json());
 // Option2: Allow Cutom Origins
 app.use(
         cors({
-        origin: 'http://localhost:5173',
+        origin: 'http://127.0.0.1:5174',
         method: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type'],
     })
